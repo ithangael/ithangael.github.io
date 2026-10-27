@@ -71,7 +71,8 @@ img { display: block; max-width: 100%; }
   display: flex; justify-content: space-between; align-items: center; gap: 16px;
   padding: 16px var(--pad);
   font-family: var(--font-m); font-size: .82rem;
-  mix-blend-mode: difference; color: #fff;
+  color: var(--ink); background: var(--bg); border-bottom: 1px solid var(--line);
+  transition: background .6s, color .6s, border-color .6s;
 }
 .mark { font-family: "Archivo", sans-serif; font-weight: 900; font-stretch: 62%; font-size: 1.4rem; text-decoration: none; letter-spacing: .02em; }
 .mark span { color: #ff5a1f; }
