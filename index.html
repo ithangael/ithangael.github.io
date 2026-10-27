@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ithan Gael Hurtado · Archivo de casos</title>
+  <meta name="description" content="Portafolio de Ithan Gael Hurtado Salazar, desarrollador Full Stack Jr.: backend, seguridad web y visión por computadora.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=IBM+Plex+Mono:wght@400;600&family=Special+Elite&family=VT323&family=Fira+Sans:wght@400;700&family=Fira+Code:wght@400;600&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-world="base">
+
+<div class="grain" aria-hidden="true"></div>
+<div class="sweep" aria-hidden="true"></div>
+
+<header class="topbar">
+  <a href="#portada" class="mark">IGH<span>/</span></a>
+  <div class="topbar-meta"><span id="clock">--:--</span> · Jalisco, MX</div>
+  <div class="topbar-actions">
+    <button class="lang" id="lang" type="button" aria-label="Cambiar idioma / Change language"><span data-l="es">ES</span> / <span data-l="en">EN</span></button>
+    <a href="#contacto" class="link-u" data-i18n="nav.contact">Contacto</a>
+  </div>
+</header>
+
+<nav class="rail" aria-label="Archivos">
+  <a href="#archivo-01" data-target="archivo-01">01</a>
+  <a href="#archivo-02" data-target="archivo-02">02</a>
+  <a href="#archivo-03" data-target="archivo-03">03</a>
+  <a href="#archivo-04" data-target="archivo-04">04</a>
+  <a href="#archivo-05" data-target="archivo-05">05</a>
+</nav>
+
+<main>
+
+<!-- ===================== PORTADA ===================== -->
+<section id="portada" class="cover" data-world="base">
+  <p class="kicker" data-i18n="hero.kicker">Archivo de casos · 2022 — 2026</p>
+  <h1 class="name">
+    <span class="scramble" data-text="ITHAN GAEL">ITHAN GAEL</span>
+    <span class="scramble outline" data-text="HURTADO">HURTADO</span>
+  </h1>
+  <div class="cover-grid">
+    <div>
+      <p class="role" data-i18n="hero.role">Desarrollador Full Stack Jr. — backend, seguridad web y visión por computadora.</p>
+      <p class="cover-lead" data-i18n="hero.lead">Cinco proyectos, cinco mundos. Cada archivo cambia la página a los colores del sistema que construí.</p>
+      <div class="cover-links">
+        <a class="link-u strong" href="assets/Ithan_Gael_Hurtado_CV.pdf" download data-i18n="hero.cv">Descargar CV</a>
+        <a class="link-u" href="https://github.com/ithangael" target="_blank" rel="noopener">GitHub ↗</a>
+        <a class="link-u" href="https://www.linkedin.com/in/ithan-gael-hurtado-salazar-82b6643b4/" target="_blank" rel="noopener">LinkedIn ↗</a>
+      </div>
+    </div>
+
+    <ol class="index" aria-label="Índice de proyectos">
+      <li data-preview="confidencial"><a href="#archivo-01"><b>01</b><span data-i18n="idx.1">Reportes confidenciales</span><em>PHP · Seguridad</em></a></li>
+      <li data-preview="cyber"><a href="#archivo-02"><b>02</b><span>CyberSec Threat Monitor</span><em>Python · WebSockets</em></a></li>
+      <li data-preview="vision"><a href="#archivo-03"><b>03</b><span>Pocholito</span><em>YOLOv8 · Node.js</em></a></li>
+      <li data-preview="nexai"><a href="#archivo-04"><b>04</b><span>NexAI Pro</span><em>Vanilla JS · <span data-i18n="idx.prod">Producto</span></em></a></li>
+      <li data-preview="biblio"><a href="#archivo-05"><b>05</b><span data-i18n="idx.5">Biblioteca TecMM</span><em>PHP · MySQL</em></a></li>
+    </ol>
+  </div>
+  <a href="#archivo-01" class="scroll-cue" data-i18n="hero.scroll">Abre el primer archivo ↓</a>
+</section>
+
+<!-- ===================== 01 CONFIDENCIAL ===================== -->
+<section id="archivo-01" class="file" data-world="confidencial">
+  <header class="file-head"><span data-i18n="c1.label">Archivo 01 · Residencia profesional · 2026 — hoy</span><span>01 / 05</span></header>
+  <div class="file-grid">
+    <div class="file-text">
+      <h2 data-i18n="c1.title">Plataforma de Reportes Ciudadanos Confidenciales</h2>
+      <p class="lead" data-i18n="c1.lead">Una plataforma para enviar reportes de forma anónima y darles seguimiento sin exponer a nadie. Por confidencialidad, el cliente y el código no se publican.</p>
+      <dl class="facts">
+        <dt data-i18n="k.problem">Problema</dt><dd data-i18n="c1.p">Los reportes se hacían en persona y en papel: sin anonimato y sin seguimiento.</dd>
+        <dt data-i18n="k.solution">Solución</dt><dd data-i18n="c1.s">App web instalable (PWA) para reportar con evidencia y consultar el avance con folio y clave, y un panel con priorización automática, mapa de calor y roles de acceso.</dd>
+        <dt data-i18n="k.security">Seguridad</dt><dd data-i18n="c1.sec">Seguridad desde el diseño: datos sensibles cifrados, autenticación en dos pasos, bitácora de auditoría y protección contra abusos.</dd>
+        <dt data-i18n="k.role">Mi rol</dt><dd data-i18n="c1.r">Requerimientos, arquitectura, base de datos, backend, frontend, seguridad y pruebas.</dd>
+      </dl>
+      <ul class="chips"><li>PHP</li><li>MySQL</li><li>JavaScript</li><li>PWA</li></ul>
+    </div>
+    <div class="file-visual">
+      <div class="paper">
+        <div class="stamp" data-i18n="c1.stamp">CONFIDENCIAL</div>
+        <p class="paper-title" data-i18n="c1.doc">REPORTE CIUDADANO</p>
+        <p><span data-i18n="c1.f1">Folio</span>: RPT-2026-<span class="redact" data-reveal="A4E1">████</span></p>
+        <p><span data-i18n="c1.f2">Origen</span>: <span data-i18n="c1.anon">anónimo</span></p>
+        <p><span data-i18n="c1.f3">Cliente</span>: <span class="redact" data-reveal="—">██████████████</span></p>
+        <p><span data-i18n="c1.f4">Contacto</span>: <span class="redact" data-reveal="cifrado">████████████</span></p>
+        <p><span data-i18n="c1.f5">Evidencia</span>: <span data-i18n="c1.enc">cifrada ✓ · sin metadatos</span></p>
+        <p><span data-i18n="c1.f6">Estado</span>: <b data-i18n="c1.status">EN REVISIÓN</b></p>
+        <p class="paper-hint" data-i18n="c1.hint">Pasa el cursor sobre lo censurado.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== 02 CYBERSEC ===================== -->
+<section id="archivo-02" class="file" data-world="cyber">
+  <header class="file-head"><span data-i18n="c2.label">Archivo 02 · Proyecto personal · 2026</span><span>02 / 05</span></header>
+  <div class="file-grid">
+    <div class="file-text">
+      <h2 class="glitch" data-text="CyberSec Threat Monitor">CyberSec Threat Monitor</h2>
+      <p class="lead" data-i18n="c2.lead">Un mini centro de operaciones de seguridad: genera ataques, los detecta y los muestra en vivo. La consola de al lado es una simulación funcionando.</p>
+      <dl class="facts">
+        <dt data-i18n="k.problem">Problema</dt><dd data-i18n="c2.p">Entender cómo un SOC detecta ataques sin depender de librerías externas de machine learning.</dd>
+        <dt data-i18n="k.solution">Solución</dt><dd data-i18n="c2.s">Simulador de fuerza bruta SSH, escaneo de puertos y anomalías en logs; motor híbrido de reglas + Z-score; transmisión por WebSocket a un dashboard sin frameworks.</dd>
+        <dt data-i18n="k.extra">Extra</dt><dd data-i18n="c2.x">Geolocalización de IPs y análisis de eventos críticos con IA en una cola asíncrona con tiempo límite. 158 pruebas con pytest.</dd>
+      </dl>
+      <ul class="chips"><li>Python</li><li>asyncio</li><li>WebSockets</li><li>SQLite</li><li>pytest</li></ul>
+    </div>
+    <div class="file-visual">
+      <div class="soc">
+        <div class="soc-top"><span class="rec">● LIVE</span><span>threat-monitor :8765</span></div>
+        <div class="soc-body">
+          <div class="radar" aria-hidden="true"><i></i><b class="blip b1"></b><b class="blip b2"></b><b class="blip b3"></b></div>
+          <div class="soc-counts">
+            <div class="crit"><b id="c-crit">0</b><span>CRITICAL</span></div>
+            <div class="susp"><b id="c-susp">0</b><span>SUSPICIOUS</span></div>
+            <div class="norm"><b id="c-norm">0</b><span>NORMAL</span></div>
+          </div>
+        </div>
+        <ul class="feed" id="feed"></ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== 03 POCHOLITO ===================== -->
+<section id="archivo-03" class="file" data-world="vision">
+  <header class="file-head"><span data-i18n="c3.label">Archivo 03 · Proyecto escolar en equipo · Coordinador · 2026</span><span>03 / 05</span></header>
+  <div class="file-grid">
+    <div class="file-text">
+      <h2>Pocholito</h2>
+      <p class="sub" data-i18n="c3.sub">Vigilancia con IA en tiempo real</p>
+      <p class="lead" data-i18n="c3.lead">Video en vivo de una cámara IP → YOLOv8 detecta rostros y placas → el conteo aparece al instante en un dashboard.</p>
+      <dl class="facts">
+        <dt data-i18n="k.role">Mi rol</dt><dd data-i18n="c3.r">Coordiné al equipo y participé en la integración entre la visión artificial y el backend.</dd>
+        <dt data-i18n="k.vision">Visión</dt><dd data-i18n="c3.v">YOLOv8 + OpenCV: detección, seguimiento y captura de evidencia al cruzar la línea de conteo.</dd>
+        <dt>Backend</dt><dd data-i18n="c3.b">Node.js/Express con 12 endpoints REST y Socket.io; MySQL en la nube; despliegue automático en Railway desde GitHub.</dd>
+      </dl>
+      <ul class="chips"><li>YOLOv8</li><li>OpenCV</li><li>Node.js</li><li>Socket.io</li><li>MySQL</li><li>Railway</li></ul>
+      <a class="link-u" href="https://github.com/ch220112127-design/pocholito-sistema" target="_blank" rel="noopener" data-i18n="c3.link">Ver código ↗</a>
+    </div>
+    <div class="file-visual">
+      <div class="cctv">
+        <div class="osd tl">CAM-01 <span class="rec">● REC</span></div>
+        <div class="osd tr" id="cctv-time">00:00:00</div>
+        <div class="osd bl"><span data-i18n="c3.count">CONTEO</span>: <b id="vcount">128</b></div>
+        <div class="osd br">YOLOv8 · 30 FPS</div>
+        <div class="lane"></div>
+        <div class="gate"></div>
+        <div class="obj car"><div class="box"><span data-i18n="c3.plate">PLACA 0.92</span></div></div>
+        <div class="obj walker"><div class="box"><span data-i18n="c3.face">ROSTRO 0.88</span></div></div>
+        <div class="scan"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== 04 NEXAI ===================== -->
+<section id="archivo-04" class="file" data-world="nexai">
+  <header class="file-head"><span data-i18n="c4.label">Archivo 04 · Producto propio · 2026</span><span>04 / 05</span></header>
+  <div class="file-grid">
+    <div class="file-text">
+      <h2>NexAI Pro</h2>
+      <p class="sub" data-i18n="c4.sub">Plantilla comercial de dashboard de IA</p>
+      <p class="lead" data-i18n="c4.lead">Lo diseñé, lo programé y lo vendo. 9 páginas en HTML, CSS y JavaScript puro, sin frameworks ni paso de compilación.</p>
+      <dl class="facts">
+        <dt data-i18n="k.inside">Incluye</dt><dd data-i18n="c4.i">Chat de IA con streaming conectable a OpenAI, Groq u Ollama · estudio de imágenes · analítica en vivo con Chart.js · modo demo.</dd>
+        <dt data-i18n="k.quality">Calidad</dt><dd data-i18n="c4.q">Sistema de diseño propio, animaciones a 60 fps, compatible con CSP y accesible (WCAG AA).</dd>
+      </dl>
+      <ul class="chips"><li>HTML5</li><li>CSS3</li><li>JavaScript</li><li>Chart.js</li><li>Firebase</li></ul>
+      <a class="link-u" href="https://ithanagael.gumroad.com/l/NexIaPro" target="_blank" rel="noopener" data-i18n="c4.link">Ver en Gumroad ↗</a>
+    </div>
+    <div class="file-visual">
+      <div class="device" id="tilt">
+        <div class="device-bar"><i></i><i></i><i></i><span>nexai.app/dashboard</span></div>
+        <div class="nx" aria-label="Demo en vivo del dashboard de NexAI Pro">
+          <aside class="nx-side" aria-hidden="true">
+            <div class="nx-logo"><b><svg viewBox="0 0 24 24"><circle cx="8" cy="9" r="3.2"/><circle cx="16" cy="9" r="3.2"/><circle cx="12" cy="16" r="3.2"/></svg></b>NexAI</div>
+            <p class="nx-group" data-i18n="nx.platform">Plataforma</p>
+            <span class="nx-item on"><i class="ic-grid"></i>Dashboard</span>
+            <span class="nx-item"><i class="ic-chat"></i>Neural Chat <em class="nx-badge">V2</em></span>
+            <span class="nx-item"><i class="ic-img"></i>Image Studio</span>
+            <p class="nx-group" data-i18n="nx.infra">Infraestructura</p>
+            <span class="nx-item"><i class="ic-db"></i>Datasets</span>
+            <span class="nx-item"><i class="ic-node"></i><span data-i18n="nx.nodes">Nodos</span> <em class="nx-badge v">3</em></span>
+          </aside>
+          <div class="nx-main">
+            <div class="nx-top">
+              <div>
+                <p class="nx-title"><span data-i18n="nx.panel">Panel</span> <b data-i18n="nx.central">Central</b></p>
+                <p class="nx-ok"><i></i><span data-i18n="nx.online">Sistema en línea</span></p>
+              </div>
+              <span class="nx-btn" aria-hidden="true">+ <span data-i18n="nx.new">Nuevo proyecto</span></span>
+            </div>
+            <div class="nx-kpis">
+              <div class="nx-kpi"><p data-i18n="nx.k1">Peticiones</p><b data-count="1240" data-suffix="K">0</b><em class="up">+12%</em><span class="nx-bar"><i style="--w:82%"></i></span></div>
+              <div class="nx-kpi"><p data-i18n="nx.k2">Latencia</p><b data-count="12" data-suffix="ms">0</b><em class="up" data-i18n="nx.fast">Rápido</em><span class="nx-bar"><i style="--w:30%"></i></span></div>
+              <div class="nx-kpi"><p data-i18n="nx.k3">Tokens</p><b data-count="45.8" data-suffix="M" data-dec="1">0</b><em class="warn" data-i18n="nx.limit">Cerca del límite</em><span class="nx-bar"><i style="--w:91%"></i></span></div>
+            </div>
+            <div class="nx-row">
+              <div class="nx-card nx-chart">
+                <p class="nx-h" data-i18n="nx.chart">Inferencia neural · tokens/s</p>
+                <svg viewBox="0 0 300 110" preserveAspectRatio="none" aria-hidden="true">
+                  <defs>
+                    <linearGradient id="nxLine" x1="0" x2="1"><stop offset="0" stop-color="#22c55e"/><stop offset=".55" stop-color="#22d4fd"/><stop offset="1" stop-color="#7c5cfc"/></linearGradient>
+                    <linearGradient id="nxFill" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#22d4fd" stop-opacity=".28"/><stop offset="1" stop-color="#22d4fd" stop-opacity="0"/></linearGradient>
+                  </defs>
+                  <g class="nx-gridlines"><line x1="0" y1="27" x2="300" y2="27"/><line x1="0" y1="55" x2="300" y2="55"/><line x1="0" y1="83" x2="300" y2="83"/></g>
+                  <path id="nx-area" fill="url(#nxFill)"/>
+                  <path id="nx-line" fill="none" stroke="url(#nxLine)" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+                  <circle id="nx-dot" r="3.5" fill="#22d4fd"/>
+                </svg>
+              </div>
+              <div class="nx-card nx-health">
+                <p class="nx-h" data-i18n="nx.health">Salud del sistema</p>
+                <p class="nx-meter">GPU H100 <b>68%</b><span class="nx-bar"><i style="--w:68%"></i></span></p>
+                <p class="nx-meter">VRAM <b>44%</b><span class="nx-bar"><i style="--w:44%"></i></span></p>
+                <p class="nx-meter">S3 <b class="w">92%</b><span class="nx-bar warn"><i style="--w:92%"></i></span></p>
+              </div>
+            </div>
+            <div class="nx-card nx-chatbox">
+              <p class="nx-msg me" data-i18n="nx.q">Resume las ventas del trimestre</p>
+              <p class="nx-msg ai"><b>AI</b><span id="nx-stream"></span><i class="nx-caret"></i></p>
+            </div>
+          </div>
+        </div>
+        <div class="device-glow"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== 05 BIBLIOTECA ===================== -->
+<section id="archivo-05" class="file" data-world="biblio">
+  <header class="file-head"><span data-i18n="c5.label">Archivo 05 · Servicio social · TecMM Chapala · 2026</span><span>05 / 05</span></header>
+  <div class="file-grid">
+    <div class="file-text">
+      <h2 data-i18n="c5.title">Sistema de Gestión Bibliotecaria</h2>
+      <p class="lead" data-i18n="c5.lead">500 horas para sacar a la biblioteca del papel. Evaluación: Excelente.</p>
+      <dl class="facts">
+        <dt data-i18n="k.problem">Problema</dt><dd data-i18n="c5.p">Inventario y préstamos de libros y equipo en papel y hojas de cálculo.</dd>
+        <dt data-i18n="k.solution">Solución</dt><dd data-i18n="c5.s">Catálogo con buscador en tiempo real, solicitudes digitales y panel con estadísticas, préstamos y devoluciones; carga masiva desde Excel y consultas preparadas contra inyección SQL.</dd>
+      </dl>
+      <ul class="chips"><li>PHP</li><li>MySQL</li><li>Bootstrap 5</li><li>JavaScript</li></ul>
+    </div>
+    <div class="file-visual">
+      <div class="catalog">
+        <div class="search"><span id="typed"></span><i class="caret"></i></div>
+        <div class="card-ficha">
+          <p class="ficha-num">QA76.9 · D3</p>
+          <p class="ficha-title" id="ficha-title">Fundamentos de bases de datos</p>
+          <p class="ficha-meta"><span data-i18n="c5.author">Autor</span>: Silberschatz, A. · <span data-i18n="c5.ed">Ed.</span> McGraw-Hill</p>
+          <div class="ficha-lines"></div>
+          <div class="stamp-loan" id="stamp-loan" data-i18n="c5.stamp">PRESTADO</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== BITÁCORA ===================== -->
+<section id="bitacora" class="ledger" data-world="base">
+  <h2 class="ledger-title" data-i18n="l.title">Bitácora profesional</h2>
+  <div class="ledger-rows">
+    <div class="row">
+      <span class="date" data-i18n="l.d1">ago 2026 — hoy</span>
+      <div><h3 data-i18n="l.t1">Desarrollador de Software y Seguridad Informática</h3><p data-i18n="l.w1">Residencia profesional · proyecto confidencial · Jalisco</p></div>
+    </div>
+    <div class="row">
+      <span class="date" data-i18n="l.d2">ene — jul 2026</span>
+      <div><h3 data-i18n="l.t2">Desarrollador Web · Servicio social</h3><p data-i18n="l.w2">Tecnológico Superior de Jalisco, Chapala · 500 h · Excelente</p></div>
+    </div>
+    <div class="row">
+      <span class="date" data-i18n="l.d3">ago 2022 — hoy</span>
+      <div><h3 data-i18n="l.t3">Supervisor de Ventas (Línea de Cajas)</h3><p data-i18n="l.w3">Walmart de México · coordino personal bajo presión mientras curso la ingeniería</p></div>
+    </div>
+    <div class="row">
+      <span class="date" data-i18n="l.d4">2022 — dic 2026</span>
+      <div><h3 data-i18n="l.t4">Ingeniería en Sistemas Computacionales</h3><p data-i18n="l.w4">TecMM, Unidad Académica Chapala · Inglés B1</p></div>
+    </div>
+  </div>
+
+  <h2 class="ledger-title" data-i18n="s.title">Inventario técnico</h2>
+  <div class="inventory">
+    <div><span>Backend</span><p>PHP · Python · Node.js/Express · REST · WebSockets · asyncio</p></div>
+    <div><span data-i18n="s.data">Datos</span><p>MySQL · SQLite · <span data-i18n="s.model">modelado relacional</span></p></div>
+    <div><span>Frontend</span><p>JavaScript · HTML · CSS · Chart.js · PWA</p></div>
+    <div><span data-i18n="s.sec">Seguridad</span><p data-i18n="s.secv">Cifrado · 2FA · roles de acceso · análisis de logs · OWASP</p></div>
+    <div><span data-i18n="s.ai">IA / Visión</span><p>YOLOv8 · OpenCV · LLM APIs</p></div>
+    <div><span data-i18n="s.tools">Herramientas</span><p>Git · Docker · Linux · Railway · pytest · Postman</p></div>
+  </div>
+
+  <h2 class="ledger-title" data-i18n="a.title">Anexos</h2>
+  <p class="annex-note" data-i18n="a.note">Constancias que respaldan el expediente. Copias disponibles a solicitud.</p>
+  <ul class="annex">
+    <li class="tag">
+      <span class="tag-id">A-1</span>
+      <h3 data-i18n="a.t1">Inglés B1 (MCER)</h3>
+      <p data-i18n="a.w1">Instituto de Fortalecimiento Académico · 180 h</p>
+      <span class="tag-date">2026</span>
+      <span class="tag-stamp" data-i18n="a.s1">Acreditado</span>
+    </li>
+    <li class="tag">
+      <span class="tag-id">A-2</span>
+      <h3 data-i18n="a.t2">Servicio social</h3>
+      <p data-i18n="a.w2">TecMM Chapala · 500 h · evaluación Excelente</p>
+      <span class="tag-date" data-i18n="a.d2">ene — jul 2026</span>
+      <span class="tag-stamp" data-i18n="a.s2">Liberado</span>
+    </li>
+    <li class="tag">
+      <span class="tag-id">A-3</span>
+      <h3 data-i18n="a.t3">Residencia profesional</h3>
+      <p data-i18n="a.w3">Proyecto confidencial · Jalisco</p>
+      <span class="tag-date" data-i18n="a.d3">ago — dic 2026</span>
+      <span class="tag-stamp pending" data-i18n="a.s3">En curso</span>
+    </li>
+    <li class="tag">
+      <span class="tag-id">A-4</span>
+      <h3 data-i18n="a.t4">Ingeniería en Sistemas Computacionales</h3>
+      <p data-i18n="a.w4">TecMM, Unidad Académica Chapala</p>
+      <span class="tag-date" data-i18n="a.d4">egreso dic 2026</span>
+      <span class="tag-stamp pending" data-i18n="a.s4">En curso</span>
+    </li>
+  </ul>
+</section>
+
+<!-- ===================== CONTACTO ===================== -->
+<section id="contacto" class="contact" data-world="base">
+  <p class="kicker" data-i18n="ct.kicker">Busco mi primer rol como Desarrollador Backend / Full Stack Jr. o en seguridad de aplicaciones.</p>
+  <h2 class="big" data-i18n="ct.title">¿Hablamos?</h2>
+  <a class="mail" href="mailto:ithangael@gmail.com">ithangael@gmail.com</a>
+  <button class="copy" id="copy" type="button" data-i18n="ct.copy">Copiar correo</button>
+</section>
+
+</main>
+
+<footer class="foot">
+  <span>© 2026 Ithan Gael Hurtado Salazar</span>
+  <span data-i18n="foot">Sin plantillas ni frameworks · HTML, CSS y JavaScript</span>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
