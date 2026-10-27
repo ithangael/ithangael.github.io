@@ -61,7 +61,7 @@ const EN = {
   'l.title': 'Work log',
   'l.d1': 'Aug 2026 — now', 'l.t1': 'Software & Information Security Developer', 'l.w1': 'Professional residency · confidential project, Jalisco. Web platform for anonymous reports: installable app (PWA), role-based admin panel, data encryption and two-step verification. PHP · MySQL · JavaScript',
   'l.d2': 'Jan — Jul 2026', 'l.t2': 'Web Developer · Social service', 'l.w2': 'TecMM Chapala · 500 h · rated Excellent. Inventory and loan system for books and equipment with Excel import and statistics. PHP · MySQL · Bootstrap',
-  'l.d3': 'Aug 2022 — now', 'l.t3': 'Sales Supervisor (Checkout Line)', 'l.w3': 'Walmart Mexico · supervising and leading the checkout team, planning schedules and shifts, organizing staff at peak hours and daily cash reconciliation.',
+  'l.d3': 'Aug 2022 — now', 'l.t3': 'Sales Supervisor (Checkout Line)', 'l.w3': 'Walmart Mexico · I lead the checkout team in a high-volume, high-pressure operation: I plan schedules and shifts, deploy staff to match demand, make real-time calls and own the daily cash reconciliation.',
   'l.d4': '2022 — Dec 2026', 'l.t4': 'B.S. Computer Systems Engineering', 'l.w4': 'TecMM, Chapala campus · databases, computer vision and artificial intelligence · English B1',
   's.title': 'Tech inventory', 's.data': 'Data', 's.model': 'relational modeling', 's.sec': 'Security',
   's.secv': 'Encryption · 2FA · role-based access · log analysis · OWASP', 's.ai': 'AI / Vision', 's.tools': 'Tools',
